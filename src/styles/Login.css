@@ -1,0 +1,10 @@
+.username-container {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 10%;
+}
+
+h1 {
+  display: block;
+}

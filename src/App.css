@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  padding:25px;
+}
+
+.standup {
+  
+}
+
+.searchText {
+  margin: auto; 
+  max-width: 600px;
+}
+
+.Navigation {
+
+}
+
+.DeveloperUpdate {
+  text-align:left;
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+} 
+
+.newvoteComponent {
+  text-align:left;
+}
+
+.Login {
+  width:400px;
+  margin:auto;
+}
+
+.userProfile {
+  position: absolute;
+  right:10px;
+  top:10px;
+}
+
+.loginError {
+  color:red;
+}
+
+.profile {
+  text-align:left;
+  width:600px;
+}
+
+.signOut {
+  text-align:center;
+}
+
+.standupTable td {
+  padding:10px;
+}
+
+.fileTable td {
+  text-align:left;
+}
+
+.searchButton {
+  text-align:left;
+}
+
+.nonblocker {
+  display:none;
+}
+
+.fileAdd {
+  text-align:left;
+}
+
+.loader {
+  width:150px;
+}
