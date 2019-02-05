@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /opt/merrn/web
+permissions:
+  - object: ./scripts/
+    pattern: "*"
+    mode: 755
+    type:
+      - file
+hooks:
+  ApplicationStop:
+    - location: ./scripts/stop_service.sh
+      mode: 755
+      runas: root
+  ApplicationStart:
+    - location: ./scripts/start_service.sh
+      mode: 755
+      runas: root

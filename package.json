@@ -1,0 +1,52 @@
+{
+  "name": "merrn",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bson-objectid": "^1.2.3",
+    "@casl/react": "^0.8.0",
+    "@casl/ability": "^2.0.0",
+    "chart.js": "^2.7.2",
+    "dotenv": "^4.0.0",
+    "emotion": "^8.0.12",
+    "lodash": "^4.17.5",
+    "moment": "^2.19.3",
+    "prop-types": "^15.6.1",
+    "query-string": "5.1.1",
+    "react": "^15.6.2",
+    "react-bootstrap": "^0.31.5",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-bootstrap-table": "^4.3.1",
+    "react-bootstrap-tabs": "^1.0.0",
+    "react-chartjs-2": "^2.7.0",
+    "react-d3": "^0.4.0",
+    "react-dom": "^15.6.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-spinners": "^0.2.6",
+    "react-stepzilla": "^4.6.3",
+    "react-tab-panel": "^2.2.7",
+    "redux": "^3.7.0",
+    "redux-form": "^7.3.0",
+    "redux-thunk": "^2.2.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-watch": "^4.3.11",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

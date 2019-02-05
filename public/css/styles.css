@@ -1,0 +1,55 @@
+.navbar .navbar-brand {
+  padding: 0px 0px;
+}
+.navbar.navbar-inverse {
+  border-radius: 0px;
+}
+.navbar-top-2 {
+  top: 52px;
+}
+.table tbody tr td.vert-align-middle {
+  vertical-align: middle;
+}
+.table tbody tr td.vert-align-bottom {
+  vertical-align: bottom;
+}
+.nav-link {
+  font-size: 16px;
+}
+.nav-link.active,
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  background-color: #ddd; 
+}
+.previewImage {
+  width: 100%;
+}
+.nav-bar-text {
+  font-size: 17px;
+  color: gray;
+}
+.navbar-default .navbar-nav > li > a {
+  color: rgba(6, 5, 10, 0.719);
+  font-weight: bolder;
+}
+.navbar-header {
+  background-color: rgb(135, 137, 138);
+}
+.appBackground {
+  background-color: rgb(105, 102, 102);
+  margin: auto;
+  width: 100%;
+}
+.warningText {
+  color: red;
+  font-weight: normal;
+}
+.title {
+  margin: auto;
+  color: black;
+  font-weight: normal;
+  border: 3px solid grey;
+  text-align: center;
+  width: 60%;
+}

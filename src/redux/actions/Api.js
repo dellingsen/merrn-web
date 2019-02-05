@@ -1,0 +1,1 @@
+export const FILE_SEARCH = "/api/files/search/:type/searchtext/:searchtext"
